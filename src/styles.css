@@ -46,30 +46,30 @@ body {
 }
 
 .clock .hour,
-.hh {
+.hr {
   width: 160px;
   height: 160px;
 }
 .clock .min,
-.mm {
+.mn {
   width: 190px;
   height: 190px;
 }
 .clock .sec,
-.ss {
+.sc {
   width: 230px;
   height: 230px;
 }
-.hh,
-.mm,
-.ss {
+.hr,
+.mn,
+.sc {
   display: flex;
   justify-content: center;
   /* align-items: center; */
   position: absolute;
   border-radius: 50%;
 }
-.hh:before {
+.hr:before {
   content: "";
   position: absolute;
   width: 8px;
@@ -78,7 +78,7 @@ body {
   z-index: 10;
   border-radius: 6px 6px 0 0;
 }
-.mm:before {
+.mn:before {
   content: "";
   position: absolute;
   width: 4px;
@@ -87,7 +87,7 @@ body {
   z-index: 11;
   border-radius: 6px 6px 0 0;
 }
-.ss:before {
+.sc:before {
   content: "";
   position: absolute;
   width: 2px;
