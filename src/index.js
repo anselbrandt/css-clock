@@ -1,4 +1,5 @@
-import "./styles.css";
+// import "./styles.css";
+import "./styles-light.css";
 
 const deg = 6;
 const hr = document.querySelector("#hr");
